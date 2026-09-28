@@ -1,0 +1,31 @@
+{
+  "obs": {
+    "host": "127.0.0.1",
+    "port": 4455,
+    "password": "",
+    "source_name": null
+  },
+  "youtube": {
+    "client_secrets_file": "client_secret.json",
+    "token_file": "token.json",
+    "video_id": "",
+    "find_active_broadcast": true
+  },
+  "thumbnail": {
+    "width": 1280,
+    "height": 720,
+    "format": "jpg",
+    "quality": 90,
+    "save_history": true,
+    "output_dir": "thumbnails"
+  },
+  "schedule": {
+    "interval_seconds": 600,
+    "retry_seconds": 60,
+    "run_immediately": true,
+    "only_when_obs_streaming": true
+  },
+  "logging": {
+    "log_file": "thumbnailer.log"
+  }
+}

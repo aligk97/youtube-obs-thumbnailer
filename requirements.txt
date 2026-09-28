@@ -1,0 +1,4 @@
+google-api-python-client>=2.150.0
+google-auth-oauthlib>=1.2.1
+Pillow>=10.4.0
+websockets>=13.1

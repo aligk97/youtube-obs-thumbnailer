@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration and OAuth secrets
+config.json
+client_secret*.json
+token.json
+.env
+
+# Runtime output
+thumbnailer.log
+watcher.log
+thumbnails/
+
+# Build / packaging
+build/
+dist/
+*.spec
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.lnk
+.idea/
+.vscode/
